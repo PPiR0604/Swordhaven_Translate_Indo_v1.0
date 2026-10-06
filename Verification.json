@@ -1,0 +1,19 @@
+{
+  "mod_version": "2.1.0",
+  "localization_behavior_tests": {
+    "qol": "9/9 passed",
+    "vanilla": "9/9 passed"
+  },
+  "icon_token_repairs": 637,
+  "remaining_icon_mismatches": 0,
+  "subtitle_pairs": 55,
+  "zip_manifest_crc_schema": "passed for all three ZIPs",
+  "installer_fixture_tests": "valid install, original backup, corrupt payload rejection, unsupported hash rejection, QoL-to-Vanilla backup passed",
+  "il_stack_and_branch_checks": "passed for 5 patched Localization methods on each DLL; other methods match source variant",
+  "read_only_review": "two findings addressed: locale factor and saved Attention wording",
+  "in_game_tested": false,
+  "vortex_mo2_tested": false,
+  "supported_vanilla_dll_sha256": "d614f88984d843726c1c3f702aae5eac6455682bc4c8a6393c1d1b0c9533dc76",
+  "game_release_version": "unconfirmed; v55 denotes save schema, not release0.55",
+  "translation_model": "Gemini 3.5 Flash Lite (user-provided credit)"
+}

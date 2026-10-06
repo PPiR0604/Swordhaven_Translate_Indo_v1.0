@@ -1,0 +1,8 @@
+Source verification: 2026-10-06
+Both projects compiled using .NET SDK 9 and local Mono.Cecil 0.11.6 via CecilPath. NuGet network restore was not tested.
+Baseline SHA256: b84f6278bf6a57fe0ff2f431dd84644a1ea17f4bb6935928e2e4d55087cc74c0
+Final DLL SHA256: 15cc179e53dc1204defc41ccbd7b61186c9cc99301abd57e1773b8742253a436
+Final DLL matches Manual Vanilla v2.1.0 release.
+Five patched IL stack checks passed. Second-stage methods outside Localization were unchanged.
+Recreated source was compared byte-for-byte with the previously built source; stored build output hashes were rechecked.
+Original game files were read only. No gameplay or Vortex deployment tests performed.
